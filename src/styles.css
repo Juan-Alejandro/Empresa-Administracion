@@ -43,9 +43,12 @@ a {
     box-sizing: border-box;
 }
 
-body {
+html, body {
+    max-width: 100%;  
     overflow-x: hidden;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
 /*CABECERA*/
