@@ -173,8 +173,7 @@ html, body {
     font-size: 400px;
     flex-wrap: wrap;
     animation: cambio-de-color 10s infinite ease;
-
-    width: 100%;
+    width: 50%;
 
 }
 
@@ -228,7 +227,7 @@ html, body {
     font-size: 400px;
     flex-wrap: wrap;
     text-align: center;
-    width: 100%;
+    width: 50%;
 }
 
 .p-visions {
@@ -532,6 +531,7 @@ html, body {
     .diamante-mision {
         font-size: 400px;
         flex-wrap: nowrap;
+        width: 100%;
     }
 
     .div-text-mision {
@@ -560,6 +560,11 @@ html, body {
     .p-visions {
         font-size: 15px;
         padding: 5% 8% 5% 8%;
+    }
+    .ojo-vision {
+        font-size: 400px;
+        flex-wrap: nowrap;
+        width: 100%;
     }
 
     .div-text-objetivos-container {
