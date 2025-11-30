@@ -451,15 +451,6 @@ html, body {
     width: 15%;
 }
 
-<<<<<<< Updated upstream
-=======
-/*PAGINAS EXTERNAS A LA PRINCIPAL*/
-
-
-/*VISION*/
-
-
->>>>>>> Stashed changes
 @media(max-width:600px) {
     .header-icono-menu {
         display: flex;
