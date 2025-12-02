@@ -61,9 +61,33 @@ html, body {
 }
 
 /*CABECERA*/
+.div-header-nombre-empresa {
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    font-family: "GoldmanR";
+    margin-bottom: 1%;
+    text-align: center;
+    width: 100%;
+    animation: color-cambio-titulo 5s ease infinite;
+
+}
+
+@keyframes color-cambio-titulo {
+    0% {
+        background-color: rgb(104, 104, 104);
+    }
+    50% {
+        background-color: rgb(84, 82, 82);
+    }
+    100% {
+        background-color: rgb(104, 104, 104);
+    }
+}
+
 .div-header-container {
     background-color:rgb(0, 0, 0);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -666,8 +690,12 @@ html, body {
     }
     .sub-header-container ol li a {
         font-size: 18px;
-    }
+    } 
 
+    .div-image-enterprise img {
+        align-self: center;
+        height: 50%;
+    }
     
 }
 
